@@ -18,6 +18,6 @@ jobs:
 
        - name: Build program
          id: build
-         run: msbuild hello.c
+         run: cl hello.c output:hello.exe
 
     
